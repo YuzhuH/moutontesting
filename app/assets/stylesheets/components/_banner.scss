@@ -1,5 +1,4 @@
 .banner {
-  background: linear-gradient(to right, #514A9D,#cbb4d4);
   background-image: url('bridge.JPG');
   color: white;
   text-align: center;
@@ -10,18 +9,20 @@
   align-items: center;
   justify-content: center;
 }
+
+
 .banner h1 {
-  font-size: 50px;
-  font-weight: bold;
+  font-size: 175%;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  padding: 12px 10px;
 }
+
 .banner p {
-  color: black;
-  font-size: 25px;
+  font-size: 100%;
   font-weight: lighter;
-  // color: rgb(255, 255, 255);
-  opacity: 0.6;
-  margin-bottom: 30px;
+  color: #FFFFFF;
+  opacity: 0.7;
+  margin-bottom: 10%;
 }
 
 .navbar-home{
@@ -33,9 +34,38 @@
 }
 
 .link{
+  text-decoration: none;
   margin-left: 18px;
+  color: #F4D03F;
+  text-shadow: 1px 0px;
+  opacity: 0.7;
 }
 
+.link:hover{
+  color: #F4D03F;
+  text-decoration: none;
+  opacity: 1;
+}
+ .link:active{
+  color: #F4D03F;
+  text-decoration: none;
+  opacity: 1;
+}
+
+#sub-title{
+  opacity: 0.9;
+  text-shadow: 0.5px 0px;
+}
+
+#discover{
+  position: absolute;
+  bottom:10%;
+  left: calc(50% - 35px);
+}
+
+#discovery-arrow{
+  opacity: 0.7;
+}
 
 
 
