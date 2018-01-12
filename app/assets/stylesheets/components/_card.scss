@@ -1,0 +1,12 @@
+.wrapper{
+  background: linear-gradient(to right, #f6f9fc, white);
+  height: 90vh;
+  position: relative;
+}
+
+.card{
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
