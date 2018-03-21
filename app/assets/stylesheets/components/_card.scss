@@ -1,7 +1,27 @@
-.wrapper{
-  // background: linear-gradient(to right, #f6f9fc, white);
-  background-color: #f8f7f2;
+// .wrapper{
+//   // background: linear-gradient(to right, #f6f9fc, white);
+//   background-color: #FFFFFF;
+//   height: 60vh;
 
+// }
+
+.main-container{
+  display: flex;
+  height: 60vh;
+}
+
+.button-container{
+  flex: 0 0 40%;
+  top: 0;
+  background-color: #FFFFFF;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image-container{
+  flex: 0 0 60%;
+  background-color: black;
 }
 
 .card{
@@ -9,10 +29,10 @@
   // top: 8%;
   // left: 15%;
   // right: 10%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 2% 6%;
-  border-radius: 3%;
-  background-color: #fbfbfb;
+  // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  // padding: 2% 6%;
+  // border-radius: 3%;
+  // background-color: #fbfbfb;
 }
 
 
